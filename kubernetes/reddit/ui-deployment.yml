@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -19,7 +20,7 @@ spec:
         component: ui
     spec:
       containers:
-      - image: apocatastasys/ui
+      - image: apocatastasys/ui:2.0
         name: ui
         env:
         - name: ENV
