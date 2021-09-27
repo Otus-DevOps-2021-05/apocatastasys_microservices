@@ -1,8 +1,8 @@
 ---
-  labels:
-    app: reddit
-    component: ui
-    matchLabels:
-      app: reddit
-      component: ui
+labels:
+  app: reddit
+  component: ui
+matchLabels:
+  app: reddit
+  component: ui
 
