@@ -1,5 +1,4 @@
 # apocatastasys_microservices
 
 
-Основное ДЗ по теме kubernetes-1
-
+Выполнено основное ДЗ по теме Kubernetes 3
