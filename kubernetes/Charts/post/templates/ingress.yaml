@@ -1,0 +1,16 @@
+---
+apiVersion: 1.0.0
+kind: Ingress
+metadata:
+  name: {{ .Release.Name }}-{{ .Chart.Name }}
+  annotations:
+    kubernetes.io/ingress.class: "gce"
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /
+        backend:
+          serviceName: {{ .Release.Name }}-{{ .Chart.Name }}
+          servicePort: {{ $.externalPort }}
+...
